@@ -1,0 +1,31 @@
+defaults:
+  - base
+
+experiment:
+  name: "finetune_5way1shot"
+  seed: 42
+  repeat_times: 1
+  device: "cuda"
+  num_workers: 0
+
+data:
+  train_ways: 5
+  train_shots: 1
+  train_queries: 15
+  test_ways: 5
+  test_shots: 1
+  test_queries: 15
+
+model:
+  type: "finetune"
+  backbone: "convnet"
+  hidden_size: 64
+  embedding_dim: 64
+
+training:
+  method: "finetune"
+  meta_lr: 0.001
+  fast_lr: 0.1
+  epochs: 100
+  meta_batch_size: 1
+  inner_steps: 10

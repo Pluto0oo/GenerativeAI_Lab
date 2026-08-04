@@ -1,0 +1,31 @@
+defaults:
+  - base
+
+experiment:
+  name: "expA_wider"
+  seed: 42
+  repeat_times: 3
+  device: "cuda"
+  num_workers: 0
+
+data:
+  train_ways: 5
+  train_shots: 1
+  train_queries: 15
+  test_ways: 5
+  test_shots: 1
+  test_queries: 15
+
+model:
+  type: "protonet"
+  backbone: "convnet"
+  hidden_size: 128
+  embedding_dim: 128
+  num_layers: 4
+
+training:
+  method: "meta"
+  meta_lr: 0.001
+  fast_lr: 0.4
+  epochs: 100
+  meta_batch_size: 16

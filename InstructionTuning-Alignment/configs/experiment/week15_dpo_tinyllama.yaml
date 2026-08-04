@@ -1,0 +1,77 @@
+# Week 15: SFT + DPO 实验配置（在SFT基座上再做偏好对齐）
+# 基座模型: SFT合并模型 (TinyLlama + huatuo医疗SFT)
+# 训练方式: PEFT + LoRA (两阶段: 先SFT → 再DPO)
+# 数据: Stanford方法构造的医疗偏好对 (chosen=真实医生答案, rejected=SFT生成)
+# 用途: 与 SFT-only 对比输出质量
+
+experiment:
+  name: "sft_dpo_tinyllama_huatuo"
+  seed: 42
+  repeat_times: 1
+  description: "TinyLlama SFT基础上做DPO偏好对齐 - huatuo医疗好/坏回答对"
+
+data:
+  name: "huatuo_dpo_preference"
+  path: "data/processed/huatuo_dpo"
+  format: "jsonl"
+  max_length: 512
+  max_prompt_length: 256
+  train_test_split: 0.9
+  num_workers: 0
+  preprocessing:
+    chat_template: true
+    truncation: true
+    padding: "right"
+    dpo_format: true
+
+model:
+  name: "models/TinyLlama-SFT-merged"   # SFT合并后的模型作为DPO基座（真正的SFT+DPO，非DPO-only）
+  torch_dtype: "bfloat16"
+  device: "cuda"
+  pretrained: true
+  lora:
+    enabled: true
+    r: 16
+    lora_alpha: 32
+    lora_dropout: 0.05
+    target_modules: ["q_proj", "v_proj", "k_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  quantization:
+    enabled: false
+
+training:
+  method: "dpo"
+  epochs: 2                  # DPO 2 epoch（12样本需足够更新次数）
+  batch_size: 2              # DPO 显存占用更高
+  gradient_accumulation_steps: 2   # 12样本/bs2=6batch, grad_accum2→3次更新/epoch
+  learning_rate: 5.0e-5      # DPO学习率一般更小
+  lr_scheduler: "cosine"
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  fp16: false
+  bf16: true
+  gradient_checkpointing: true
+  save_steps: 200
+  eval_steps: 200
+  logging_steps: 20
+  beta: 0.1                 # DPO温度，越高对齐越"用力"
+  max_length: 512
+  max_prompt_length: 256
+
+evaluation:
+  metrics: ["accuracy", "length", "helpfulness"]
+  eval_dataset: "validation"
+  generation:
+    max_new_tokens: 256
+    temperature: 0.7
+    top_p: 0.9
+    do_sample: true
+
+logging:
+  use_wandb: false
+  log_level: "INFO"
+
+output:
+  save_dir: "results"
+  save_best_model: true
+  save_total_limit: 2

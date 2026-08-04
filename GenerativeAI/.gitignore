@@ -1,0 +1,21 @@
+*.pyc
+__pycache__/
+*.egg-info/
+.eggs/
+data/
+.DS_Store
+.vscode/
+.idea/
+
+# 大文件排除 (超过GitHub 100MB限制或体积过大)
+results/checkpoints/diffusion_optimizer.pth
+results/checkpoints/gan_model.pth
+results/checkpoints/diffusion_unet/diffusion_pytorch_model.safetensors
+
+# 保留以下结果文件用于上传:
+# - 训练日志 (*.log): 记录训练过程, 体积小
+# - NumPy数据 (*.npy): 训练损失数据, 体积小
+# - 图表文件 (*.png): 生成样本与曲线图
+# - 汇总报告 (*.txt): 训练日志汇总
+# - VAE checkpoint (vae_model.pth, 5.5MB): 体积小可上传
+# - Diffusion配置 (config.json, scheduler_config.json): 体积小

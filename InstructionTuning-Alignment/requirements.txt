@@ -1,0 +1,55 @@
+# 指令微调与对齐技术 - 依赖库
+# Python 3.10+
+
+# 核心深度学习框架
+torch>=2.0.0
+torchvision>=0.15.0
+
+# HuggingFace 生态
+transformers>=4.36.0
+accelerate>=0.26.0
+datasets>=2.14.0
+tokenizers>=0.15.0
+
+# PEFT (参数高效微调)
+peft>=0.7.0
+
+# TRL (强化学习训练)
+trl>=0.7.0
+
+# DeepSpeed (可选，用于大规模训练)
+# deepspeed>=0.14.0
+
+# 数据处理
+numpy>=1.24.0
+pandas>=2.0.0
+PyYAML>=6.0
+
+# 评估指标
+evaluate>=0.4.0
+rouge-score>=0.1.2
+nltk>=3.8.0
+
+# 可视化
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# 工具
+tqdm>=4.65.0
+rich>=13.7.0
+python-dotenv>=1.0.0
+
+# 实验追踪 (可选)
+# wandb>=0.16.0
+
+# 量化支持
+bitsandbytes>=0.41.0
+
+# 测试
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# 代码质量
+# black>=23.12.0
+# isort>=2.13.0
+# flake8>=7.0.0

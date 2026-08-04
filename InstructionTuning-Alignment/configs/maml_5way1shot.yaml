@@ -1,0 +1,29 @@
+defaults:
+  - base
+
+experiment:
+  name: "maml_5way1shot"
+  seed: 42
+  repeat_times: 5
+
+data:
+  train_ways: 5
+  train_shots: 1
+  train_queries: 15
+  test_ways: 5
+  test_shots: 1
+  test_queries: 15
+
+model:
+  type: "maml"
+  backbone: "convnet"
+  hidden_size: 64
+  embedding_dim: 64
+
+training:
+  method: "meta"
+  meta_lr: 0.001
+  fast_lr: 0.01
+  epochs: 100
+  meta_batch_size: 4
+  inner_steps: 1

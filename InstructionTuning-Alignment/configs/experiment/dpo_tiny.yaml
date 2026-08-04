@@ -1,0 +1,73 @@
+# DPO 随机初始化小模型配置（无需网络下载，验证Pipeline流程）
+
+experiment:
+  name: "dpo_random_tiny"
+  seed: 42
+  repeat_times: 1
+  description: "DPO随机初始化小模型验证实验（无需预训练权重）"
+
+data:
+  name: "preference_data"
+  path: "data/processed/preference_data"
+  format: "json"
+  max_length: 256
+  max_prompt_length: 128
+  train_test_split: 0.9
+  num_workers: 0
+  preprocessing:
+    chat_template: false
+    truncation: true
+    padding: "right"
+    dpo_format: true
+
+model:
+  name: "random://gpt2-tiny"
+  random_init: true
+  torch_dtype: "float32"
+  device: "cuda"
+  pretrained: false
+  lora:
+    enabled: true
+    r: 8
+    lora_alpha: 16
+    lora_dropout: 0.05
+    target_modules: ["c_attn", "c_proj"]
+  quantization:
+    enabled: false
+
+training:
+  method: "dpo"
+  epochs: 1
+  batch_size: 1
+  gradient_accumulation_steps: 2
+  learning_rate: 5.0e-4
+  lr_scheduler: "cosine"
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  fp16: false
+  gradient_checkpointing: false
+  save_steps: 50
+  eval_steps: 50
+  logging_steps: 2
+  beta: 0.1
+  max_length: 256
+  max_prompt_length: 128
+
+evaluation:
+  metrics: ["accuracy", "length"]
+  eval_dataset: "validation"
+  generation:
+    max_new_tokens: 64
+    temperature: 0.7
+    top_p: 0.9
+    do_sample: true
+
+logging:
+  use_wandb: false
+  log_level: "INFO"
+
+output:
+  save_dir: "results"
+  save_best_model: false
+  save_total_limit: 1

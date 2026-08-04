@@ -1,0 +1,78 @@
+# 基础配置文件 - 指令微调与对齐技术
+
+# 实验信息
+experiment:
+  name: "base_alignment_experiment"
+  seed: 42
+  repeat_times: 1
+  description: "基础对齐实验配置"
+
+# 数据配置
+data:
+  name: "instruction_dataset"
+  path: "data/processed/instruction_data"
+  format: "json"  # json, jsonl, csv
+  max_length: 2048
+  train_test_split: 0.95
+  num_workers: 4
+  preprocessing:
+    chat_template: true
+    truncation: true
+    padding: "right"
+
+# 模型配置
+model:
+  name: "meta-llama/Meta-Llama-3-8B-Instruct"
+  torch_dtype: "bfloat16"
+  device: "cuda"
+  pretrained: true
+  lora:
+    enabled: false
+    r: 8
+    lora_alpha: 16
+    lora_dropout: 0.05
+    target_modules: ["q_proj", "v_proj", "k_proj", "o_proj"]
+  quantization:
+    enabled: false
+    bits: 4
+    method: "NF4"
+
+# 训练配置
+training:
+  method: "sft"  # sft, dpo, ppo, rm
+  epochs: 3
+  batch_size: 8
+  gradient_accumulation_steps: 4
+  learning_rate: 2.0e-5
+  lr_scheduler: "cosine"
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  fp16: true
+  gradient_checkpointing: true
+  save_steps: 500
+  eval_steps: 200
+  logging_steps: 10
+
+# 评估配置
+evaluation:
+  metrics: ["accuracy", "bleu", "rouge", "length"]
+  eval_dataset: "validation"
+  generation:
+    max_new_tokens: 512
+    temperature: 0.7
+    top_p: 0.9
+    do_sample: true
+
+# 日志配置
+logging:
+  use_wandb: false
+  wandb_project: "alignment-lab"
+  wandb_entity: "researcher"
+  log_level: "INFO"
+
+# 输出配置
+output:
+  save_dir: "results"
+  save_best_model: true
+  save_total_limit: 3

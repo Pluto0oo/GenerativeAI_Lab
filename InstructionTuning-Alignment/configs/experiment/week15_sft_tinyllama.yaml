@@ -1,0 +1,73 @@
+# Week 15: SFT-only 实验配置（真实医疗数据集）
+# 基座模型: TinyLlama/TinyLlama-1.1B-Chat-v1.0 (约1.1B，单卡8G可跑)
+# 训练方式: PEFT + LoRA
+# 数据: FreedomIntelligence/huatuo_encyclopedia_qa 真实中文医疗问答 (5085 train / 898 val)
+# 用途: SFT演示 → 之后在此基础上做DPO，对比输出质量
+
+experiment:
+  name: "sft_tinyllama_huatuo"
+  seed: 42
+  repeat_times: 1
+  description: "TinyLlama 1.1B SFT指令微调 - 真实中文医疗问答(huatuo)"
+
+data:
+  name: "huatuo_medical"
+  path: "data/processed/huatuo_sft"
+  format: "jsonl"
+  max_length: 512
+  train_test_split: 0.85
+  num_workers: 0
+  preprocessing:
+    chat_template: true        # TinyLlama 有 chat_template
+    truncation: true
+    padding: "right"
+
+model:
+  name: "models/TinyLlama-1.1B-Chat-v1.0"   # 本地路径，无需联网下载
+  torch_dtype: "bfloat16"
+  device: "cuda"
+  pretrained: true
+  lora:
+    enabled: true
+    r: 16
+    lora_alpha: 32
+    lora_dropout: 0.05
+    # LLaMA系列注意力层: q_proj,v_proj必选；可选k_proj/o_proj/MLP
+    target_modules: ["q_proj", "v_proj", "k_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  quantization:
+    enabled: false            # 8G显存 TinyLlama bf16 + LoRA 无需4bit
+
+training:
+  method: "sft"
+  epochs: 2
+  batch_size: 4
+  gradient_accumulation_steps: 4   # 有效 batch = 16
+  learning_rate: 2.0e-4
+  lr_scheduler: "cosine"
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  fp16: false                 # 用bf16精度更高(Ampere以上架构)
+  bf16: true
+  gradient_checkpointing: true
+  save_steps: 300              # 5085条/batch4≈1271步/epoch，每300步存一次
+  eval_steps: 300
+  logging_steps: 20
+
+evaluation:
+  metrics: ["accuracy", "bleu", "rouge", "length"]
+  eval_dataset: "validation"
+  generation:
+    max_new_tokens: 256
+    temperature: 0.7
+    top_p: 0.9
+    do_sample: true
+
+logging:
+  use_wandb: false
+  log_level: "INFO"
+
+output:
+  save_dir: "results"
+  save_best_model: true
+  save_total_limit: 2

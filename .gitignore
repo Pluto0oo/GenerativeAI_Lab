@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# 模型权重（大文件，不纳入版本控制）
+*.safetensors
+*.pth
+*.bin
+*.ckpt
+*.pt
+*.npy
+models/
+
+# 日志
+logs/
+*.log
+
+# 数据（按需取消注释）
+# data/processed/
+
+# 环境
+.venv/
+.env
+wandb/
+
+# 系统
+.DS_Store
+Thumbs.db

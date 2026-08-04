@@ -1,0 +1,99 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# 数据文件
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+
+# 实验结果
+results/*
+!results/.gitkeep
+
+# 日志文件
+logs/*
+!logs/.gitkeep
+
+# 报告文件（可选保留）
+reports/*.pdf
+reports/*.docx
+
+# 模型检查点
+checkpoints/
+*.safetensors
+*.bin
+*.pth
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment
+.env
+.env.local
+.conda/
+
+# Weights & Biases
+wandb/
+wandb/*
+!wandb/.gitignore
+
+# DeepSpeed
+zero_to_fp32.py
+
+# 大型数据文件
+*.tar.gz
+*.zip
+*.7z
+*.tar
+
+# 临时文件
+tmp/
+temp/
+*.tmp

@@ -1,0 +1,75 @@
+# DPO 小模型快速验证实验配置
+# 使用Qwen2-0.5B小模型，适合快速验证Pipeline流程
+
+experiment:
+  name: "dpo_qwen_small"
+  seed: 42
+  repeat_times: 1
+  description: "DPO小模型快速验证实验"
+
+data:
+  name: "preference_data"
+  path: "data/processed/preference_data"
+  format: "json"
+  max_length: 512
+  max_prompt_length: 256
+  train_test_split: 0.9
+  num_workers: 2
+  preprocessing:
+    chat_template: true
+    truncation: true
+    padding: "right"
+    dpo_format: true
+
+model:
+  name: "Qwen/Qwen2-0.5B-Instruct"
+  torch_dtype: "bfloat16"
+  device: "cuda"
+  pretrained: true
+  lora:
+    enabled: true
+    r: 8
+    lora_alpha: 16
+    lora_dropout: 0.05
+    target_modules: ["q_proj", "v_proj", "k_proj", "o_proj"]
+  quantization:
+    enabled: false
+
+training:
+  method: "dpo"
+  epochs: 1
+  batch_size: 1
+  gradient_accumulation_steps: 4
+  learning_rate: 5.0e-5
+  lr_scheduler: "cosine"
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  fp16: false
+  gradient_checkpointing: false
+  save_steps: 50
+  eval_steps: 50
+  logging_steps: 2
+  beta: 0.1
+  max_length: 512
+  max_prompt_length: 256
+
+evaluation:
+  metrics: ["accuracy", "preference_score", "length"]
+  eval_dataset: "validation"
+  generation:
+    max_new_tokens: 128
+    temperature: 0.7
+    top_p: 0.9
+    do_sample: true
+
+logging:
+  use_wandb: false
+  wandb_project: "alignment-lab"
+  wandb_entity: "researcher"
+  log_level: "INFO"
+
+output:
+  save_dir: "results"
+  save_best_model: true
+  save_total_limit: 2

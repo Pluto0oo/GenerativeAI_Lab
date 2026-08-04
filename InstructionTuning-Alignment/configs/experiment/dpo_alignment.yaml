@@ -1,0 +1,78 @@
+# DPO 直接偏好优化实验配置
+
+experiment:
+  name: "dpo_alignment_llama3"
+  seed: 42
+  repeat_times: 3
+  description: "使用DPO算法进行LLaMA-3对齐训练，基于偏好数据集"
+
+data:
+  name: "preference_dataset"
+  path: "data/processed/preference_data"
+  format: "json"
+  max_length: 1024  # DPO对长度更敏感
+  max_prompt_length: 512
+  train_test_split: 0.95
+  num_workers: 4
+  preprocessing:
+    chat_template: true
+    truncation: true
+    padding: "right"
+    # DPO数据需要包含prompt, chosen, rejected字段
+    dpo_format: true
+
+model:
+  name: "meta-llama/Meta-Llama-3-8B-Instruct"
+  torch_dtype: "bfloat16"
+  device: "cuda"
+  pretrained: true
+  lora:
+    enabled: true
+    r: 16
+    lora_alpha: 32
+    lora_dropout: 0.1
+    target_modules: ["q_proj", "v_proj", "k_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  quantization:
+    enabled: false
+    bits: 4
+    method: "NF4"
+
+training:
+  method: "dpo"
+  epochs: 1  # DPO通常不需要太多epoch
+  batch_size: 2
+  gradient_accumulation_steps: 16
+  learning_rate: 5.0e-6  # DPO通常使用更小的学习率
+  lr_scheduler: "cosine"
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  fp16: true
+  gradient_checkpointing: true
+  save_steps: 200
+  eval_steps: 100
+  logging_steps: 5
+  # DPO特有参数
+  beta: 0.1  # 温度参数，控制对齐强度
+  max_length: 1024
+  max_prompt_length: 512
+
+evaluation:
+  metrics: ["accuracy", "preference_score", "length", "helpfulness"]
+  eval_dataset: "validation"
+  generation:
+    max_new_tokens: 512
+    temperature: 0.7
+    top_p: 0.9
+    do_sample: true
+
+logging:
+  use_wandb: false
+  wandb_project: "alignment-lab"
+  wandb_entity: "researcher"
+  log_level: "INFO"
+
+output:
+  save_dir: "results"
+  save_best_model: true
+  save_total_limit: 3
