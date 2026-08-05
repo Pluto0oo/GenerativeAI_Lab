@@ -1,0 +1,4250 @@
+{
+  "zero_shot": {
+    "accuracy": 0.23,
+    "hallucination_rate": 0.0,
+    "num_samples": 100,
+    "correct": 23,
+    "sample_details": [
+      {
+        "idx": 0,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 1,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 2,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 3,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 4,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 5,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 6,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 7,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 8,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 9,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 10,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 11,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 12,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 13,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 14,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 15,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 16,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 17,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The correct answer is A.\nAnswer: A"
+      },
+      {
+        "idx": 18,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 19,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 20,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 21,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 22,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 23,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The correct answer is A.\nAnswer: A"
+      },
+      {
+        "idx": 24,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 25,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 26,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 27,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 28,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 29,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 30,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The correct answer is A.\nAnswer: A"
+      },
+      {
+        "idx": 31,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 32,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 33,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 34,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 35,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 36,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 37,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 38,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 39,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 40,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 41,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 42,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 43,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 44,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 45,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 46,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 47,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 48,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 49,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 50,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 51,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 52,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 53,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 54,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 55,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 56,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 57,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 58,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 59,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 60,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 61,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 62,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 63,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 64,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 65,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 66,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 67,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 68,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 69,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 70,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 71,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 72,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 73,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 74,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 75,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 76,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 77,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 78,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 79,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 80,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 81,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 82,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 83,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 84,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 85,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 86,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 87,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 88,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 89,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 90,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 91,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 92,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 93,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 94,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 95,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 96,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The correct answer is A.\nAnswer: A"
+      },
+      {
+        "idx": 97,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 98,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 99,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      }
+    ]
+  },
+  "few_shot": {
+    "accuracy": 0.31,
+    "hallucination_rate": 0.0,
+    "num_samples": 100,
+    "correct": 31,
+    "sample_details": [
+      {
+        "idx": 0,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 1,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 2,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 3,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 4,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 5,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 6,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 7,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 8,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 9,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 10,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 11,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 12,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 13,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 14,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 15,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 16,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 17,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 18,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 19,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 20,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 21,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 22,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 23,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 24,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 25,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 26,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 27,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 28,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 29,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 30,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 31,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 32,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 33,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 34,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 35,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 36,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 37,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 38,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 39,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 40,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 41,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 42,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 43,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 44,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 45,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 46,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 47,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 48,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 49,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 50,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 51,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 52,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 53,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 54,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 55,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 56,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 57,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 58,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 59,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 60,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 61,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 62,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 63,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 64,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 65,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 66,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 67,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 68,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 69,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 70,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 71,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 72,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 73,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 74,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 75,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 76,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 77,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 78,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 79,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 80,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 81,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 82,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 83,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 84,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 85,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 86,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 87,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 88,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 89,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 90,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 91,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 92,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 93,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 94,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 95,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 96,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 97,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 98,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 99,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      }
+    ]
+  },
+  "cot": {
+    "accuracy": 0.32,
+    "hallucination_rate": 0.0,
+    "num_samples": 100,
+    "correct": 32,
+    "sample_details": [
+      {
+        "idx": 0,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 1,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 2,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 3,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 4,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 5,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 6,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 7,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 8,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 9,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 10,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nStep 1 - Key findings:\nStep 2 - Best answer:\nAnswer: B"
+      },
+      {
+        "idx": 11,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 12,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 13,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 14,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 15,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 16,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 17,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 18,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 19,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 20,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 21,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 22,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 23,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 24,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 25,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 26,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 27,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 28,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 29,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 30,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 31,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 32,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 33,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 34,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 35,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 36,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 37,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 38,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nStep 1 - Key findings:\nStep 2 - Best answer:\nAnswer: C"
+      },
+      {
+        "idx": 39,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 40,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 41,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 42,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 43,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 44,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 45,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 46,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 47,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 48,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 49,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 50,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 51,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 52,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 53,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 54,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 55,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 56,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nStep 1 - Key findings:\nStep 2 - Best answer:\nAnswer: D"
+      },
+      {
+        "idx": 57,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 58,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 59,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 60,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 61,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 62,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 63,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 64,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nStep 1 - Key findings:\nStep 2 - Best answer:\nAnswer: D"
+      },
+      {
+        "idx": 65,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 66,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 67,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 68,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 69,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nStep 1 - Key findings:\nStep 2 - Best answer:"
+      },
+      {
+        "idx": 70,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 71,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 72,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 73,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 74,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 75,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 76,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 77,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 78,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 79,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 80,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 81,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 82,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 83,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 84,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 85,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 86,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 87,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 88,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 89,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 90,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 91,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nStep 1 - Key findings:\nStep 2 - Best answer:\nAnswer: D"
+      },
+      {
+        "idx": 92,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 93,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 94,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 95,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nStep 1 - Key findings:\nStep 2 - Best answer:"
+      },
+      {
+        "idx": 96,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The correct answer is A.\nStep 1 - Key findings:\nStep 2 - Best answer:\nAnswer: A"
+      },
+      {
+        "idx": 97,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 98,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 99,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: D"
+      }
+    ]
+  },
+  "self_consistency": {
+    "accuracy": 0.25,
+    "hallucination_rate": 0.0,
+    "num_samples": 100,
+    "correct": 25,
+    "sample_details": [
+      {
+        "idx": 0,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "[votes:['C', 'D', 'C', 'D', 'D']]"
+      },
+      {
+        "idx": 1,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "[votes:['C', 'D', 'D', 'B', 'B']]"
+      },
+      {
+        "idx": 2,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'B', 'B', 'D', 'C']]"
+      },
+      {
+        "idx": 3,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'C', 'C', 'B', 'B']]"
+      },
+      {
+        "idx": 4,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'B', 'C', 'C', 'C']]"
+      },
+      {
+        "idx": 5,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'B', 'B', 'B', 'C']]"
+      },
+      {
+        "idx": 6,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'C', 'D', 'B', 'D']]"
+      },
+      {
+        "idx": 7,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'D', 'A', 'B', 'A']]"
+      },
+      {
+        "idx": 8,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'B', 'B', 'C', 'D']]"
+      },
+      {
+        "idx": 9,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'B', 'A', 'D', 'D']]"
+      },
+      {
+        "idx": 10,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[votes:['B', 'B', 'B', 'C', 'D']]"
+      },
+      {
+        "idx": 11,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'C', 'C', 'C', 'C']]"
+      },
+      {
+        "idx": 12,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'C', 'D', 'B', 'C']]"
+      },
+      {
+        "idx": 13,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'C', 'C', 'D']]"
+      },
+      {
+        "idx": 14,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'B', 'D', 'C', 'D']]"
+      },
+      {
+        "idx": 15,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'B', 'B', 'B', 'D']]"
+      },
+      {
+        "idx": 16,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'C', 'D', 'C']]"
+      },
+      {
+        "idx": 17,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'D', 'B', 'C']]"
+      },
+      {
+        "idx": 18,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'C', 'B', 'B', 'B']]"
+      },
+      {
+        "idx": 19,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "[votes:['D', 'D', 'D', 'D', 'D']]"
+      },
+      {
+        "idx": 20,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "[votes:['D', 'D', 'D', 'C', 'D']]"
+      },
+      {
+        "idx": 21,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'B', 'C', 'C', 'C']]"
+      },
+      {
+        "idx": 22,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'D', 'B', 'B']]"
+      },
+      {
+        "idx": 23,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[votes:['A', 'B', 'B', 'C', 'A']]"
+      },
+      {
+        "idx": 24,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'B', 'B', 'C', 'D']]"
+      },
+      {
+        "idx": 25,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'C', 'C', 'C', 'C']]"
+      },
+      {
+        "idx": 26,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[votes:['B', 'B', 'B', 'C', 'D']]"
+      },
+      {
+        "idx": 27,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[votes:['B', 'D', 'B', 'B', 'C']]"
+      },
+      {
+        "idx": 28,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'B', 'C', 'D', 'D']]"
+      },
+      {
+        "idx": 29,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'B', 'B', 'C', 'C']]"
+      },
+      {
+        "idx": 30,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'D', 'D', 'D']]"
+      },
+      {
+        "idx": 31,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'C', 'B', 'B', 'B']]"
+      },
+      {
+        "idx": 32,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'C', 'D', 'D', 'C']]"
+      },
+      {
+        "idx": 33,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "[votes:['B', 'D', 'D', 'D', 'D']]"
+      },
+      {
+        "idx": 34,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'B', 'C', 'D', 'C']]"
+      },
+      {
+        "idx": 35,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "[votes:['D', 'C', 'B', 'C', 'B']]"
+      },
+      {
+        "idx": 36,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'B', 'D', 'C', 'C']]"
+      },
+      {
+        "idx": 37,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "[votes:['C', 'D', 'C', 'C', 'C']]"
+      },
+      {
+        "idx": 38,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'C', 'C', 'C', 'B']]"
+      },
+      {
+        "idx": 39,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'B', 'B', 'C', 'B']]"
+      },
+      {
+        "idx": 40,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'D', 'B', 'C', 'C']]"
+      },
+      {
+        "idx": 41,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'C', 'B', 'C']]"
+      },
+      {
+        "idx": 42,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'D', 'C', 'C', 'B']]"
+      },
+      {
+        "idx": 43,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'B', 'D', 'B', 'C']]"
+      },
+      {
+        "idx": 44,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "[votes:['D', 'D', 'D', 'B', 'B']]"
+      },
+      {
+        "idx": 45,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'C', 'D', 'C', 'C']]"
+      },
+      {
+        "idx": 46,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'B', 'B', 'B', 'B']]"
+      },
+      {
+        "idx": 47,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'D', 'C', 'D', 'C']]"
+      },
+      {
+        "idx": 48,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'C', 'D', 'D', 'C']]"
+      },
+      {
+        "idx": 49,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'D', 'C', 'C', 'C']]"
+      },
+      {
+        "idx": 50,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'B', 'D', 'D', 'D']]"
+      },
+      {
+        "idx": 51,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'C', 'B', 'C']]"
+      },
+      {
+        "idx": 52,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[votes:['B', 'B', 'D', 'B', 'C']]"
+      },
+      {
+        "idx": 53,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "[votes:['D', 'C', 'D', 'C', 'C']]"
+      },
+      {
+        "idx": 54,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'C', 'D', 'D', 'B']]"
+      },
+      {
+        "idx": 55,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'D', 'D', 'B', 'D']]"
+      },
+      {
+        "idx": 56,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'C', 'C', 'D', 'B']]"
+      },
+      {
+        "idx": 57,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'C', 'B', 'B', 'D']]"
+      },
+      {
+        "idx": 58,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[votes:['B', 'B', 'D', 'B', 'B']]"
+      },
+      {
+        "idx": 59,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'B', 'B', 'D', 'B']]"
+      },
+      {
+        "idx": 60,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'C', 'C', 'C']]"
+      },
+      {
+        "idx": 61,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'D', 'C', 'B', 'C']]"
+      },
+      {
+        "idx": 62,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "[votes:['D', 'D', 'D', 'C', 'D']]"
+      },
+      {
+        "idx": 63,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'D', 'D', 'C']]"
+      },
+      {
+        "idx": 64,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "[votes:['C', 'C', 'C', 'D', 'B']]"
+      },
+      {
+        "idx": 65,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[votes:['B', 'D', 'D', 'B', 'B']]"
+      },
+      {
+        "idx": 66,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'B', 'A', 'A', 'B']]"
+      },
+      {
+        "idx": 67,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'D', 'D', 'C', 'B']]"
+      },
+      {
+        "idx": 68,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'B', 'B', 'D', 'B']]"
+      },
+      {
+        "idx": 69,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'D', 'B', 'B']]"
+      },
+      {
+        "idx": 70,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'B', 'B', 'D']]"
+      },
+      {
+        "idx": 71,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'C', 'B', 'B']]"
+      },
+      {
+        "idx": 72,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'B', 'C', 'C', 'D']]"
+      },
+      {
+        "idx": 73,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'B', 'C', 'D', 'C']]"
+      },
+      {
+        "idx": 74,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'B', 'D', 'C']]"
+      },
+      {
+        "idx": 75,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'D', 'D', 'D', 'D']]"
+      },
+      {
+        "idx": 76,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'D', 'B', 'D', 'C']]"
+      },
+      {
+        "idx": 77,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[votes:['B', 'C', 'B', 'B', 'D']]"
+      },
+      {
+        "idx": 78,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'B', 'C', 'B', 'C']]"
+      },
+      {
+        "idx": 79,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'D', 'B', 'D', 'D']]"
+      },
+      {
+        "idx": 80,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'C', 'C', 'B', 'B']]"
+      },
+      {
+        "idx": 81,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'C', 'B', 'B', 'B']]"
+      },
+      {
+        "idx": 82,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'D', 'D', 'C']]"
+      },
+      {
+        "idx": 83,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'D', 'B', 'D', 'B']]"
+      },
+      {
+        "idx": 84,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[votes:['B', 'D', 'B', 'D', 'C']]"
+      },
+      {
+        "idx": 85,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[votes:['C', 'B', 'B', 'B', 'B']]"
+      },
+      {
+        "idx": 86,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'B', 'B', 'D', 'B']]"
+      },
+      {
+        "idx": 87,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'C', 'B', 'C', 'C']]"
+      },
+      {
+        "idx": 88,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "[votes:['D', 'D', 'B', 'D', 'D']]"
+      },
+      {
+        "idx": 89,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'D', 'D', 'C', 'D']]"
+      },
+      {
+        "idx": 90,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "[votes:['C', 'C', 'C', 'C', 'D']]"
+      },
+      {
+        "idx": 91,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "[votes:['C', 'D', 'B', 'D', 'D']]"
+      },
+      {
+        "idx": 92,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'C', 'C', 'B', 'D']]"
+      },
+      {
+        "idx": 93,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'D', 'D', 'D', 'D']]"
+      },
+      {
+        "idx": 94,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'B', 'B', 'B', 'D']]"
+      },
+      {
+        "idx": 95,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "[votes:['C', 'B', 'D', 'C', 'B']]"
+      },
+      {
+        "idx": 96,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[votes:['C', 'B', 'A', 'A', 'B']]"
+      },
+      {
+        "idx": 97,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['D', 'D', 'C', 'C', 'C']]"
+      },
+      {
+        "idx": 98,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[votes:['B', 'C', 'C', 'B', 'B']]"
+      },
+      {
+        "idx": 99,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[votes:['C', 'C', 'B', 'C', 'D']]"
+      }
+    ]
+  },
+  "tot_v2": {
+    "accuracy": 0.19,
+    "hallucination_rate": 0.0,
+    "num_samples": 100,
+    "correct": 19,
+    "sample_details": [
+      {
+        "idx": 0,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 1,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 2,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is A.\nAnswer: A"
+      },
+      {
+        "idx": 3,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 4,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 5,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 6,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 7,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is A.\nAnswer: A"
+      },
+      {
+        "idx": 8,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 9,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 10,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 11,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 12,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 13,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 14,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 15,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 16,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 17,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is A.\nAnswer: A"
+      },
+      {
+        "idx": 18,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 19,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is A.\nAnswer: A"
+      },
+      {
+        "idx": 20,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 21,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 22,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 23,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is A.\nAnswer: A"
+      },
+      {
+        "idx": 24,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 25,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 26,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 27,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 28,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 29,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 30,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is A.\nAnswer: A"
+      },
+      {
+        "idx": 31,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 32,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 33,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 34,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 35,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 36,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 37,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 38,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 39,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 40,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 41,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 42,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 43,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 44,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 45,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 46,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 47,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 48,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 49,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 50,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 51,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 52,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 53,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 54,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 55,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 56,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 57,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 58,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 59,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 60,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 61,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 62,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 63,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 64,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 65,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 66,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is A.\nAnswer: A"
+      },
+      {
+        "idx": 67,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 68,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 69,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 70,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 71,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 72,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 73,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 74,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 75,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 76,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 77,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 78,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 79,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 80,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 81,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 82,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 83,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 84,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 85,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 86,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 87,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 88,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is B.\nAnswer: B"
+      },
+      {
+        "idx": 89,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 90,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 91,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 92,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 93,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 94,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "The correct answer is B.\nAnswer: BThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 95,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 96,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is A.\nAnswer: A"
+      },
+      {
+        "idx": 97,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      },
+      {
+        "idx": 98,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "The correct answer is D.\nAnswer: DThe correct answer is C.\nAnswer: C"
+      },
+      {
+        "idx": 99,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "The correct answer is C.\nAnswer: CThe correct answer is D.\nAnswer: D"
+      }
+    ]
+  },
+  "cot_verifier": {
+    "accuracy": 0.18,
+    "hallucination_rate": 0.0,
+    "num_samples": 100,
+    "correct": 18,
+    "sample_details": [
+      {
+        "idx": 0,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 1,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 2,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "[B->A]"
+      },
+      {
+        "idx": 3,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 4,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[C->B]"
+      },
+      {
+        "idx": 5,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 6,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[C->B]"
+      },
+      {
+        "idx": 7,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[A->B]"
+      },
+      {
+        "idx": 8,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 9,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[D->A]"
+      },
+      {
+        "idx": 10,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 11,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[C->A]"
+      },
+      {
+        "idx": 12,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 13,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 14,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 15,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 16,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 17,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[A->B]"
+      },
+      {
+        "idx": 18,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 19,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[D->A]"
+      },
+      {
+        "idx": 20,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 21,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 22,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 23,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[D->A]"
+      },
+      {
+        "idx": 24,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 25,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 26,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 27,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 28,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 29,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 30,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[D->A]"
+      },
+      {
+        "idx": 31,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 32,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[C->D]"
+      },
+      {
+        "idx": 33,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 34,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 35,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 36,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 37,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 38,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 39,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 40,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 41,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 42,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 43,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 44,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 45,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 46,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 47,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 48,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 49,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 50,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 51,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 52,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 53,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 54,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 55,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 56,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 57,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 58,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 59,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 60,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 61,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 62,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 63,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 64,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 65,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 66,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[D->A]"
+      },
+      {
+        "idx": 67,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 68,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 69,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 70,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 71,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 72,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 73,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 74,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 75,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 76,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 77,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 78,
+        "ref": "C",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 79,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 80,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 81,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 82,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 83,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[B->D]"
+      },
+      {
+        "idx": 84,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[C->D]"
+      },
+      {
+        "idx": 85,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 86,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 87,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 88,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 89,
+        "ref": "A",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "[B->C]"
+      },
+      {
+        "idx": 90,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "[D->C]"
+      },
+      {
+        "idx": 91,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 92,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 93,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[D->A]"
+      },
+      {
+        "idx": 94,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 95,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 96,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "[A->B]"
+      },
+      {
+        "idx": 97,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "[C->D]"
+      },
+      {
+        "idx": 98,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[D->B]"
+      },
+      {
+        "idx": 99,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "[C->B]"
+      }
+    ]
+  }
+}

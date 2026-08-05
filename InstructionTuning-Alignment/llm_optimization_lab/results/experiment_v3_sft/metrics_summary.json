@@ -1,0 +1,38 @@
+{
+  "zero_shot": {
+    "accuracy": 0.23,
+    "hallucination_rate": 0.0,
+    "num_samples": 100,
+    "correct": 23
+  },
+  "few_shot": {
+    "accuracy": 0.31,
+    "hallucination_rate": 0.0,
+    "num_samples": 100,
+    "correct": 31
+  },
+  "cot": {
+    "accuracy": 0.32,
+    "hallucination_rate": 0.0,
+    "num_samples": 100,
+    "correct": 32
+  },
+  "self_consistency": {
+    "accuracy": 0.25,
+    "hallucination_rate": 0.0,
+    "num_samples": 100,
+    "correct": 25
+  },
+  "tot_v2": {
+    "accuracy": 0.19,
+    "hallucination_rate": 0.0,
+    "num_samples": 100,
+    "correct": 19
+  },
+  "cot_verifier": {
+    "accuracy": 0.18,
+    "hallucination_rate": 0.0,
+    "num_samples": 100,
+    "correct": 18
+  }
+}
