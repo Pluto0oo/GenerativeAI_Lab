@@ -1,0 +1,44 @@
+{
+  "zero_shot_v2": {
+    "description": "Zero-Shot v2: Role+format constraint+greedy decoding",
+    "accuracy": 0.24,
+    "hallucination_rate": 0.03,
+    "num_samples": 100,
+    "correct": 24
+  },
+  "few_shot_v2": {
+    "description": "Few-Shot v2: 2 real examples+format fix",
+    "accuracy": 0.01,
+    "hallucination_rate": 0.9,
+    "num_samples": 100,
+    "correct": 1
+  },
+  "cot_v2": {
+    "description": "CoT v2: Concise 2-step reasoning",
+    "accuracy": 0.15,
+    "hallucination_rate": 0.51,
+    "num_samples": 100,
+    "correct": 15
+  },
+  "self_consistency_v2": {
+    "description": "Self-Consistency v2: 5 paths+low temp 0.4+majority vote",
+    "accuracy": 0.02,
+    "hallucination_rate": 0.95,
+    "num_samples": 100,
+    "correct": 2
+  },
+  "tot_v2": {
+    "description": "ToT v2: Two-stage generation (analyze options -> select answer)",
+    "accuracy": 0.27,
+    "hallucination_rate": 0.0,
+    "num_samples": 100,
+    "correct": 27
+  },
+  "cot_verifier": {
+    "description": "CoT+Verifier: CoT reasoning followed by answer verification",
+    "accuracy": 0.04,
+    "hallucination_rate": 0.92,
+    "num_samples": 100,
+    "correct": 4
+  }
+}

@@ -1,0 +1,45 @@
+experiment:
+  name: "prompt_few_shot_medqa"
+  seed: 42
+  description: "Few-Shot Prompt在MedQA上的效果（含示例）"
+
+prompt:
+  strategy: "few_shot"
+  template: |
+    你是一位专业的医疗助手。参考以下示例回答问题。
+    
+    示例1：
+    问题：{example1_question}
+    答案：{example1_answer}
+    
+    示例2：
+    问题：{example2_question}
+    答案：{example2_answer}
+    
+    现在回答：
+    问题：{question}
+    选项：{options}
+    答案：
+  num_shots: 2
+
+model:
+  name: "TinyLlama-SFT-merged"
+  path: "c:/Users/17456/Documents/GitHub/Deep_learningPractice/Few-Shot  Meta-Learning/models/TinyLlama-SFT-merged"
+  torch_dtype: "bfloat16"
+  device: "cuda"
+  max_new_tokens: 256
+  temperature: 0.0
+
+data:
+  name: "medqa"
+  path: "data/processed/medqa_processed.jsonl"
+  num_samples: 200
+  split: "test"
+
+evaluation:
+  metrics: ["accuracy", "hallucination_rate"]
+  compare_with: ["zero_shot", "cot"]
+
+output:
+  save_dir: "results"
+  save_responses: true

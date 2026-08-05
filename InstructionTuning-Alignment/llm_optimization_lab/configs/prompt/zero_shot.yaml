@@ -1,0 +1,34 @@
+experiment:
+  name: "prompt_zero_shot_medqa"
+  seed: 42
+  description: "Zero-Shot Prompt在MedQA上的基线效果"
+
+prompt:
+  strategy: "zero_shot"
+  template: |
+    你是一位专业的医疗助手。请回答以下医学问题。
+    问题：{question}
+    选项：{options}
+    答案：
+
+model:
+  name: "TinyLlama-SFT-merged"
+  path: "c:/Users/17456/Documents/GitHub/Deep_learningPractice/Few-Shot  Meta-Learning/models/TinyLlama-SFT-merged"
+  torch_dtype: "bfloat16"
+  device: "cuda"
+  max_new_tokens: 256
+  temperature: 0.0
+
+data:
+  name: "medqa"
+  path: "data/processed/medqa_processed.jsonl"
+  num_samples: 200
+  split: "test"
+
+evaluation:
+  metrics: ["accuracy", "hallucination_rate"]
+  compare_with: ["few_shot", "cot"]
+
+output:
+  save_dir: "results"
+  save_responses: true

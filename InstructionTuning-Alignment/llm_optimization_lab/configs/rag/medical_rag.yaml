@@ -1,0 +1,50 @@
+experiment:
+  name: "rag_medical_assistant"
+  seed: 42
+  description: "基于RAG的医疗问答助手"
+
+retrieval:
+  type: "dense"
+  vector_store:
+    type: "faiss"
+    path: "knowledge_base/embeddings/medical.index"
+  embedding_model: "BAAI/bge-small-zh-v1.5"
+  top_k: 5
+  similarity_threshold: 0.6
+  reranking:
+    enabled: true
+    model: "BAAI/bge-reranker-base"
+
+knowledge_base:
+  path: "knowledge_base/medical_guidelines/"
+  sources: ["pubmed", "clinical_guidelines"]
+  chunk_size: 512
+  chunk_overlap: 50
+
+generation:
+  model_name: "TinyLlama-SFT-merged"
+  model_path: "c:/Users/17456/Documents/GitHub/Deep_learningPractice/Few-Shot  Meta-Learning/models/TinyLlama-SFT-merged"
+  max_new_tokens: 512
+  temperature: 0.7
+  prompt_template: |
+    基于以下医学参考资料回答问题。如果参考资料中没有相关信息，请说明。
+    
+    参考资料：
+    {context}
+    
+    问题：{question}
+    
+    答案：
+
+model:
+  torch_dtype: "bfloat16"
+  device: "cuda"
+
+evaluation:
+  metrics: ["accuracy", "faithfulness", "answer_relevancy", "context_precision"]
+  hallucination_detection: true
+  compare_with: ["without_rag"]
+
+output:
+  save_dir: "results"
+  save_retrieval_trace: true

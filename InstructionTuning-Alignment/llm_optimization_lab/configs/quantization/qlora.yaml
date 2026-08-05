@@ -1,0 +1,40 @@
+experiment:
+  name: "qlora_finetune_medical"
+  seed: 42
+  description: "QLoRA高效微调医疗问答模型"
+
+model:
+  base_name: "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+  torch_dtype: "bfloat16"
+  device: "cuda"
+
+quantization:
+  method: "qlora"
+  bits: 4
+  group_size: 32
+  compute_dtype: "bfloat16"
+  lora:
+    r: 16
+    lora_alpha: 32
+    lora_dropout: 0.05
+    target_modules: ["q_proj", "v_proj", "k_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+
+training:
+  epochs: 2
+  batch_size: 4
+  gradient_accumulation_steps: 4
+  learning_rate: 2.0e-4
+  lr_scheduler: "cosine"
+  warmup_ratio: 0.1
+
+data:
+  name: "huatuo_sft"
+  path: "data/processed/huatuo_sft"
+  format: "jsonl"
+
+evaluation:
+  metrics: ["accuracy", "bleu", "rouge"]
+
+output:
+  save_dir: "results"
+  save_best_model: true

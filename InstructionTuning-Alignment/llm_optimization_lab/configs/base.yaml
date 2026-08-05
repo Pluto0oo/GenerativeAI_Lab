@@ -1,0 +1,19 @@
+# 基础配置 - 所有实验共享
+base:
+  seed: 42
+  device: "cuda"
+  torch_dtype: "bfloat16"
+  log_level: "INFO"
+  project_name: "llm_optimization_lab"
+  output_dir: "results"
+  
+model:
+  default_name: "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+  local_path: "models/TinyLlama-1.1B-Chat-v1.0"
+  
+data:
+  default_path: "data/processed"
+  
+evaluation:
+  metrics_dir: "metrics"
+  save_results: true

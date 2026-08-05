@@ -19,6 +19,11 @@ logs/
 
 # 数据（按需取消注释）
 # data/processed/
+# 原始数据集（大文件，通过download脚本获取）
+data/raw/
+
+# Trae临时文件
+.trae/
 
 # 环境
 .venv/

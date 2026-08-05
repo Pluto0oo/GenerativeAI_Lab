@@ -1,0 +1,26 @@
+experiment:
+  name: "quantization_int8_tinyllama"
+  seed: 42
+  description: "INT8量化对TinyLlama医疗问答的影响"
+
+model:
+  base_name: "TinyLlama-SFT-merged"
+  merged_path: "c:/Users/17456/Documents/GitHub/Deep_learningPractice/Few-Shot  Meta-Learning/models/TinyLlama-SFT-merged"
+  torch_dtype: "bfloat16"
+
+quantization:
+  method: "dynamic"
+  bits: 8
+  compute_dtype: "bfloat16"
+  target_modules: ["q_proj", "v_proj", "k_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+
+evaluation:
+  benchmark: true
+  metrics: ["accuracy", "inference_speed", "memory_usage", "perplexity"]
+  compare_with: ["baseline", "int4"]
+  test_data: "data/processed/medqa_processed.jsonl"
+  num_samples: 100
+  batch_sizes: [1, 2, 4, 8]
+
+output:
+  save_dir: "results"

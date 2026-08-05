@@ -1,0 +1,4256 @@
+{
+  "zero_shot_v2": {
+    "description": "Zero-Shot v2: Role+format constraint+greedy decoding",
+    "accuracy": 0.24,
+    "hallucination_rate": 0.03,
+    "num_samples": 100,
+    "correct": 24,
+    "sample_details": [
+      {
+        "idx": 0,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 1,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Rapid sequence intubation"
+      },
+      {
+        "idx": 2,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A) Surgical debridement"
+      },
+      {
+        "idx": 3,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 4,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Positive Babinski sign"
+      },
+      {
+        "idx": 5,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Option: A"
+      },
+      {
+        "idx": 6,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 7,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Sildenafil"
+      },
+      {
+        "idx": 8,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Supportive therapy only"
+      },
+      {
+        "idx": 9,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 10,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 11,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 12,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Option A: 17a-hydroxylase"
+      },
+      {
+        "idx": 13,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 14,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Option A: Sleep supine in a crib without bumpers, use a pacifier after 1 month of age, and avoidance smoking"
+      },
+      {
+        "idx": 15,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 16,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 17,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Option A: 1/200"
+      },
+      {
+        "idx": 18,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 19,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 20,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Answer: X"
+      },
+      {
+        "idx": 21,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Arteriography"
+      },
+      {
+        "idx": 22,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 23,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(X) Answer: A"
+      },
+      {
+        "idx": 24,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 25,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Continue calling the patient's parents and do not intubate until verbal consent is obtained over the phone"
+      },
+      {
+        "idx": 26,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 27,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Retrospective cohort"
+      },
+      {
+        "idx": 28,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Hemoptysis is a common symptom of chronic obstructive pulmonary disease (COPD). It may be caused by various factors "
+      },
+      {
+        "idx": 29,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 30,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 31,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Dantrolene"
+      },
+      {
+        "idx": 32,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Bullous changes of the lung bases on chest CT"
+      },
+      {
+        "idx": 33,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Option A: Cytarabine"
+      },
+      {
+        "idx": 34,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 35,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 36,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) A toxoid vaccine within ten days of exposure"
+      },
+      {
+        "idx": 37,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Answer: X"
+      },
+      {
+        "idx": 38,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A) Answer: A"
+      },
+      {
+        "idx": 39,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 40,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Inhibition of nucleoside reverse transcriptase"
+      },
+      {
+        "idx": 41,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 42,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Prostaglandin E1 infusion"
+      },
+      {
+        "idx": 43,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 44,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 45,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 46,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 47,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 48,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) TGF-β"
+      },
+      {
+        "idx": 49,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 50,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 51,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 52,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Answer: A"
+      },
+      {
+        "idx": 53,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Answer: A"
+      },
+      {
+        "idx": 54,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Option A: Return both the food and gift certificate because it is never acceptable to take gifts from patients."
+      },
+      {
+        "idx": 55,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 56,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 57,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 58,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 59,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "The NPV of this novel test is 245/245+5=245/290=87%."
+      },
+      {
+        "idx": 60,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Option: A"
+      },
+      {
+        "idx": 61,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 62,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 63,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Congenital adrenal hyperplasia"
+      },
+      {
+        "idx": 64,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 65,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Option A: \"Yes, ginkgo is widely used for improving brain function and memory.\" This statement is true. Ginkgo biloba is"
+      },
+      {
+        "idx": 66,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Consult with a psychiatrist to have Mr. P committed"
+      },
+      {
+        "idx": 67,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 68,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 69,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Option: A"
+      },
+      {
+        "idx": 70,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 71,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Pursue liver transplantation"
+      },
+      {
+        "idx": 72,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 73,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 74,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 75,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 76,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 77,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "X"
+      },
+      {
+        "idx": 78,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Option A: Mesna"
+      },
+      {
+        "idx": 79,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A) \"I\""
+      },
+      {
+        "idx": 80,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Option A: Increased total body potassium\nIncreased total body potassium can be caused by various factors such as hyperka"
+      },
+      {
+        "idx": 81,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 82,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 83,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Adenosine deaminase deficiency"
+      },
+      {
+        "idx": 84,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 85,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 86,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "The 95% confidence interval for this association is 0.56 to 1.88."
+      },
+      {
+        "idx": 87,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 88,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 89,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 90,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Option A: Ganciclovir\nGanciclovir is a synthetic analogue of glycosylated interferon alpha-2a that has been approved for"
+      },
+      {
+        "idx": 91,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Aminolevulinic acid"
+      },
+      {
+        "idx": 92,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 93,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 94,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Attempt to contact the patient's parents for additional collateral information"
+      },
+      {
+        "idx": 95,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 96,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A) Pyrimethamine"
+      },
+      {
+        "idx": 97,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 98,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "(A)"
+      },
+      {
+        "idx": 99,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "(A) Preventive measure: Placing the infant in a supine position on a firm mattress while sleeping can help prevent sudde"
+      }
+    ]
+  },
+  "few_shot_v2": {
+    "description": "Few-Shot v2: 2 real examples+format fix",
+    "accuracy": 0.01,
+    "hallucination_rate": 0.9,
+    "num_samples": 100,
+    "correct": 1,
+    "sample_details": [
+      {
+        "idx": 0,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 1,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 2,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 3,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 4,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Response:"
+      },
+      {
+        "idx": 5,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 6,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 7,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 8,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 9,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Question: A 60-year-old man with no significant medical history begins to have memory loss and personality changes. Rapi"
+      },
+      {
+        "idx": 10,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Response:"
+      },
+      {
+        "idx": 11,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 12,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 13,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 14,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 15,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Response: B"
+      },
+      {
+        "idx": 16,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 17,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 18,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Response:"
+      },
+      {
+        "idx": 19,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 20,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 21,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 22,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 23,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 24,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Boerhaave syndrome is a rare but serious disorder characterized by esophageal perforation, usually in the distal esophag"
+      },
+      {
+        "idx": 25,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "Response: Answer: C"
+      },
+      {
+        "idx": 26,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 27,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Response:"
+      },
+      {
+        "idx": 28,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Response: [letter]"
+      },
+      {
+        "idx": 29,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 30,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 31,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 32,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 33,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 34,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 35,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Question: A 60-year-old man presents to the emergency department with severe abdominal pain. He states that he has been "
+      },
+      {
+        "idx": 36,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 37,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 38,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 39,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 40,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 41,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 42,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 43,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "The mutated gene encodes a protein called Wingless-interacting protein (WIP). WIP is involved in regulating the expressi"
+      },
+      {
+        "idx": 44,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 45,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Response:"
+      },
+      {
+        "idx": 46,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 47,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 48,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 49,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 50,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 51,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Response: Answer: B"
+      },
+      {
+        "idx": 52,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 53,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 54,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Response:"
+      },
+      {
+        "idx": 55,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 56,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 57,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 58,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 59,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 60,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 61,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Response:"
+      },
+      {
+        "idx": 62,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Anticipation"
+      },
+      {
+        "idx": 63,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 64,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 65,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 66,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Response: B"
+      },
+      {
+        "idx": 67,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 68,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The most likely cause of this child's illness is a systemic inflammatory response syndrome (SIRS) caused by a viral infe"
+      },
+      {
+        "idx": 69,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 70,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 71,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 72,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 73,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Factitious thyrotoxicosis"
+      },
+      {
+        "idx": 74,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 75,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 76,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 77,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 78,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 79,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Response:"
+      },
+      {
+        "idx": 80,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 81,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 82,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 83,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 84,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 85,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 86,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "The 95% confidence interval for the odds ratio of congenital malformations in newborns born to women who were undergoing"
+      },
+      {
+        "idx": 87,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 88,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 89,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 90,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 91,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 92,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 93,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 94,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Question: A 35-year-old woman with no significant past medical history is brought in by ambulance after a major motor ve"
+      },
+      {
+        "idx": 95,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 96,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 97,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 98,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      },
+      {
+        "idx": 99,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": ""
+      }
+    ]
+  },
+  "cot_v2": {
+    "description": "CoT v2: Concise 2-step reasoning",
+    "accuracy": 0.15,
+    "hallucination_rate": 0.51,
+    "num_samples": 100,
+    "correct": 15,
+    "sample_details": [
+      {
+        "idx": 0,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best Answer: Patellar tendonitis"
+      },
+      {
+        "idx": 1,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Question: What is the most appropriate next step in managing a patient who has been found to be hypersensitive to penici"
+      },
+      {
+        "idx": 2,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Key Findings:\n(1) Painful swelling and erythema around the joint.\n(2) Yellow-green discharge from the site of the incisi"
+      },
+      {
+        "idx": 3,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of myxomatous degeneration of the mitral valve?"
+      },
+      {
+        "idx": 4,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Key Findings: (1) The patient's left leg was weak and he could not walk without assistance. (2) His right arm was weak a"
+      },
+      {
+        "idx": 5,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of neonatal intraventricular hemorrhage (NIVH)?"
+      },
+      {
+        "idx": 6,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Key findings: Vaginal discharge, which appears yellowish, thick, and frothy; no other abnormalities present; no other or"
+      },
+      {
+        "idx": 7,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Best answer: A"
+      },
+      {
+        "idx": 8,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Key Findings: Fever, chills, headache, dry cough, malaise, generalized muscle aches, intermittent asthma, for which she "
+      },
+      {
+        "idx": 9,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Best Answer: A"
+      },
+      {
+        "idx": 10,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "Best Answer: B"
+      },
+      {
+        "idx": 11,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "Best Answer: C. Tetracycline therapy"
+      },
+      {
+        "idx": 12,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Best Answer: A. 17a-hydroxylase"
+      },
+      {
+        "idx": 13,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best Answer: Hypertension"
+      },
+      {
+        "idx": 14,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of sudden unexpected infant death (SUID)?"
+      },
+      {
+        "idx": 15,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Question: A 45-year-old woman with no history of breast cancer has been diagnosed with a large, firm, nodular mass in he"
+      },
+      {
+        "idx": 16,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Key Findings: 1. Fever 2. Productive cough 3. Dyspnea 4. Upper back pain 5. No history of smoking 6. Blood pressure 7. P"
+      },
+      {
+        "idx": 17,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Question: A patient complains that he cannot distinguish between colors. He can see them but cannot tell which one is gr"
+      },
+      {
+        "idx": 18,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Key Findings: Dog Bite\nPhysical Exam: Irritation around the site of the dog's bite.\nTissue Culture: No evidence of infec"
+      },
+      {
+        "idx": 19,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best Answer: Herpes simplex virus"
+      },
+      {
+        "idx": 20,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "Best Answer: D. Hyperaldosteronism"
+      },
+      {
+        "idx": 21,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Key Findings:\nPainful swelling with no signs of bleeding.\n\nBest Answer: Step 1 - Key findings: Identify the main clinica"
+      },
+      {
+        "idx": 22,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of respiratory failure in patients with chronic obstructive pulmonary disease (C"
+      },
+      {
+        "idx": 23,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Option A: Sabouraud agar (SAB)\nThis is a common blood culture medium used for identifying bacterial infections. It is al"
+      },
+      {
+        "idx": 24,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best Answer: Boerhaave syndrome"
+      },
+      {
+        "idx": 25,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of acute respiratory distress syndrome (ARDS) in children?"
+      },
+      {
+        "idx": 26,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of chronic, retrosternal chest pain?"
+      },
+      {
+        "idx": 27,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Question: The American College of Cardiology (ACC) has released a statement regarding the use of statins for patients wi"
+      },
+      {
+        "idx": 28,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best Answer: Hemoptysis"
+      },
+      {
+        "idx": 29,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Question: What is the most appropriate next step in management if a 31-year-old woman arrives at the emergency departmen"
+      },
+      {
+        "idx": 30,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common type of transference in psychotherapy?"
+      },
+      {
+        "idx": 31,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Key Findings:\n(a) Temperature 39.8°C (103.6°F); Blood pressure 100/60 mm Hg; Respiratory rate 16/min; Eye opening 10 sec"
+      },
+      {
+        "idx": 32,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "Best answer: D"
+      },
+      {
+        "idx": 33,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best Answer: Cytarabine"
+      },
+      {
+        "idx": 34,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best Answer: Digoxin"
+      },
+      {
+        "idx": 35,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of stroke in older adults?"
+      },
+      {
+        "idx": 36,
+        "ref": "B",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "Key Findings:\n(1) Fever: The patient's temperature is 101°F (38.3°C), which is higher than normal for a healthy adult.\n("
+      },
+      {
+        "idx": 37,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "Best answer: C"
+      },
+      {
+        "idx": 38,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Best Answer: (B)"
+      },
+      {
+        "idx": 39,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of chronic bronchitis?"
+      },
+      {
+        "idx": 40,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Best Answer: B"
+      },
+      {
+        "idx": 41,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best Answer: Spermatogenesis"
+      },
+      {
+        "idx": 42,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "Option B: Indomethacin infusion"
+      },
+      {
+        "idx": 43,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Question: In a study of 35 patients with severe heart failure, 47% had evidence of left ventricular hypertrophy (LVH) on"
+      },
+      {
+        "idx": 44,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Question: A 60-year-old man who has been taking prednisone for several months due to chronic sinusitis reports that he f"
+      },
+      {
+        "idx": 45,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "Best Answer: B"
+      },
+      {
+        "idx": 46,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most appropriate next step for the physician when considering the religious beliefs of the patient"
+      },
+      {
+        "idx": 47,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Key Findings: Nausea and abdominal pain are present."
+      },
+      {
+        "idx": 48,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Key Findings: Epigastric pain, nausea, and weakness; Smoking for 50 years; Weight loss; Emaciation; BMI = 15 kg/m2"
+      },
+      {
+        "idx": 49,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: How does the presence of an anion gap metabolic acidosis affect the patient's ability to perform activities of"
+      },
+      {
+        "idx": 50,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of acute interstitial nephritis (AIN)?"
+      },
+      {
+        "idx": 51,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Best Answer: Option B"
+      },
+      {
+        "idx": 52,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of acute myocardial infarction among women aged 45–54 years?"
+      },
+      {
+        "idx": 53,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "Key Findings:\n(1) Temperature: 99.5°F (37.5°C).\n(2) Blood Pressure: 165/95 mmHg.\n(3) Respiratory Rate: 15/min.\n(4) Oxyge"
+      },
+      {
+        "idx": 54,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Question: How does the presence of a large number of cells in the lungs indicate the severity of the disease?\nOptions:\nA"
+      },
+      {
+        "idx": 55,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Option B is correct because it points to the breakdown of the blood-brain barrier."
+      },
+      {
+        "idx": 56,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Option B is correct because the tumor has not yet spread to the contralateral superior mediastinal lymph nodes."
+      },
+      {
+        "idx": 57,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of cauda equina syndrome?"
+      },
+      {
+        "idx": 58,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "Best answer: B"
+      },
+      {
+        "idx": 59,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Question: How does the use of the novel screening examination compare to that of the current standard HIV antibody test "
+      },
+      {
+        "idx": 60,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most appropriate next step in management?"
+      },
+      {
+        "idx": 61,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most effective way to prevent errors like those that led to the administration of an erroneous dos"
+      },
+      {
+        "idx": 62,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of microcephaly in infants with Down syndrome?"
+      },
+      {
+        "idx": 63,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "Option B: Granulosa cell tumor"
+      },
+      {
+        "idx": 64,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best Answer: Neural tube"
+      },
+      {
+        "idx": 65,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "Best Answer: B"
+      },
+      {
+        "idx": 66,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Step 3 - Reasoning: Explain why the best option is chosen."
+      },
+      {
+        "idx": 67,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Best Answer: (A)"
+      },
+      {
+        "idx": 68,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of acute respiratory distress syndrome in children?"
+      },
+      {
+        "idx": 69,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Option B: Notify hospital administration but do not notify the patient as no ill effects occurred"
+      },
+      {
+        "idx": 70,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Best Answer: Option B"
+      },
+      {
+        "idx": 71,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most appropriate next step in managing this patient's condition?"
+      },
+      {
+        "idx": 72,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of right-sided flank pain during pregnancy?"
+      },
+      {
+        "idx": 73,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best Answer: Factitious thyrotoxicosis"
+      },
+      {
+        "idx": 74,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Key Findings: Double vision, difficulty maintaining visual acuity, poor color discrimination, and decreased peripheral v"
+      },
+      {
+        "idx": 75,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Best answer: B"
+      },
+      {
+        "idx": 76,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Best Answer: (B)"
+      },
+      {
+        "idx": 77,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Key Findings:\n(1) Rigidity and severe tenderness in the abdomen.\n(2) Central venous pressure (CVP) of 5 cm H2O.\n(3) Bloo"
+      },
+      {
+        "idx": 78,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best answer: Aprepitant"
+      },
+      {
+        "idx": 79,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Best Answer: (B)"
+      },
+      {
+        "idx": 80,
+        "ref": "A",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "Best Answer: D"
+      },
+      {
+        "idx": 81,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best Answer: Acute cholangitis"
+      },
+      {
+        "idx": 82,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of death among infants who are born before their due date?"
+      },
+      {
+        "idx": 83,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best Answer: ADA deficiency"
+      },
+      {
+        "idx": 84,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of sudden death in young adults?"
+      },
+      {
+        "idx": 85,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "Option B: Dystrophic calcification"
+      },
+      {
+        "idx": 86,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Best Answer: B"
+      },
+      {
+        "idx": 87,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Best Answer: (A)"
+      },
+      {
+        "idx": 88,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Best Answer: (B)"
+      },
+      {
+        "idx": 89,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best Answer: Guillain-Barré syndrome"
+      },
+      {
+        "idx": 90,
+        "ref": "C",
+        "pred": "C",
+        "correct": true,
+        "response_excerpt": "Best answer: C"
+      },
+      {
+        "idx": 91,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Best Answer: Aminolevulinic acid"
+      },
+      {
+        "idx": 92,
+        "ref": "A",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Best Answer: B"
+      },
+      {
+        "idx": 93,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "Key Findings: (1) Right upper quadrant abdominal pain; (2) Scleral icterus; (3) Tenderness to palpation in the right upp"
+      },
+      {
+        "idx": 94,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "Key Findings:\nTemperature: 97.8°F (36.5°C) Blood pressure: 76/40 Pulse: 110/min Respiration: 12/min Abdominal distension"
+      },
+      {
+        "idx": 95,
+        "ref": "C",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "Best Answer: B"
+      },
+      {
+        "idx": 96,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Best answer: A. Pyrimethamine"
+      },
+      {
+        "idx": 97,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Question: What is the most common cause of acute renal failure in patients with acquired factor VIII deficiency?"
+      },
+      {
+        "idx": 98,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Question: A 48-year-old woman with no history of childbirth presents to the emergency room complaining of severe pain in"
+      },
+      {
+        "idx": 99,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "Key Findings: The infant did not move or cry during the night. Autopsy revealed no signs of trauma."
+      }
+    ]
+  },
+  "self_consistency_v2": {
+    "description": "Self-Consistency v2: 5 paths+low temp 0.4+majority vote",
+    "accuracy": 0.02,
+    "hallucination_rate": 0.95,
+    "num_samples": 100,
+    "correct": 2,
+    "sample_details": [
+      {
+        "idx": 0,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 1,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] The most appropriate next step in management is rapid sequence intubation."
+      },
+      {
+        "idx": 2,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', 'A', '', '', '']] X"
+      },
+      {
+        "idx": 3,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 4,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', 'A', 'A']] X"
+      },
+      {
+        "idx": 5,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 6,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['A', '', '', '', '']] X = A"
+      },
+      {
+        "idx": 7,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 8,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] The most appropriate next step in management would be supportive therapy only."
+      },
+      {
+        "idx": 9,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 10,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['A', '', '', '', '']] The patient's mother believes that her son has always acted out, but now it seem"
+      },
+      {
+        "idx": 11,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 12,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 13,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 14,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "[votes: ['C', 'A', '', 'A', '']] Option C provides the best advice for reducing the risk of sudden infant death s"
+      },
+      {
+        "idx": 15,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 16,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', 'C']] X-rays show no abnormalities."
+      },
+      {
+        "idx": 17,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', 'A']] X"
+      },
+      {
+        "idx": 18,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', 'A', 'A']] The patient should be given the rabies vaccine and rabies immunoglobulin, follow"
+      },
+      {
+        "idx": 19,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 20,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 21,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] Observation and blood pressure monitoring"
+      },
+      {
+        "idx": 22,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', 'A', '', 'A', '']] The biopsy results suggest that Aspergillus fumigatus has suppressed the product"
+      },
+      {
+        "idx": 23,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', 'A', '']] X"
+      },
+      {
+        "idx": 24,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', 'A', 'B', '']] X"
+      },
+      {
+        "idx": 25,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] The patient's condition is urgent, and immediate intervention is necessary. It i"
+      },
+      {
+        "idx": 26,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', 'A', '', '', 'D']] The microscopic findings of pseudostratified columnar epithelium in the bronchi "
+      },
+      {
+        "idx": 27,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', 'A', '', '', '']] X = 0"
+      },
+      {
+        "idx": 28,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 29,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', 'B']] X"
+      },
+      {
+        "idx": 30,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] The patient feels powerless to change and blames his problems on the situation i"
+      },
+      {
+        "idx": 31,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', 'C', 'A', '']] X"
+      },
+      {
+        "idx": 32,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['C', '', '', '', 'A']] X = C"
+      },
+      {
+        "idx": 33,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 34,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] The most likely cause of this patient's lab abnormalities is digoxin."
+      },
+      {
+        "idx": 35,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', 'A', '', '']] X"
+      },
+      {
+        "idx": 36,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[votes: ['', 'A', 'A', '', 'A']] X"
+      },
+      {
+        "idx": 37,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', 'D', 'A', '']] X. Granulomatous inflammation of the cavernous sinus"
+      },
+      {
+        "idx": 38,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 39,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 40,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 41,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 42,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', 'A', 'A']] X"
+      },
+      {
+        "idx": 43,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['A', '', '', '', 'A']] (1) Genetic analysis shows that the point mutation in the gene causes the mRNA t"
+      },
+      {
+        "idx": 44,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 45,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', 'A']] X"
+      },
+      {
+        "idx": 46,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', 'A', '']] X"
+      },
+      {
+        "idx": 47,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 48,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 49,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[votes: ['A', 'A', 'A', 'A', '']] The patient has a primary respiratory alkalosis with a compensatory metabolic ac"
+      },
+      {
+        "idx": 50,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', 'A', '', '']] X"
+      },
+      {
+        "idx": 51,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] (1) Abdominal, back, or groin pain"
+      },
+      {
+        "idx": 52,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 53,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', 'A', 'A', 'A']] (1) Raise lisinopril dose"
+      },
+      {
+        "idx": 54,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', 'A']] \"You should keep both the food and gift certificate.\""
+      },
+      {
+        "idx": 55,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', 'A', '']] X is incorrect because the first change in the pathophysiology of the central ne"
+      },
+      {
+        "idx": 56,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['A', '', '', 'A', '']] The patient's history and physical examination suggest that the primary tumor is"
+      },
+      {
+        "idx": 57,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', 'A', '', '']] X"
+      },
+      {
+        "idx": 58,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', 'A', '']] X"
+      },
+      {
+        "idx": 59,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X = (245+5)/(245+15)"
+      },
+      {
+        "idx": 60,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 61,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] The most appropriate management is to implement closed-loop communication as it "
+      },
+      {
+        "idx": 62,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', 'A']] X"
+      },
+      {
+        "idx": 63,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 64,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X is derived from the notochord."
+      },
+      {
+        "idx": 65,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['A', '', 'A', '', '']] Ginkgo biloba has been used as a dietary supplement for decades. It has been fou"
+      },
+      {
+        "idx": 66,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', 'B', 'A']] If Mr. P is allowed to play, he will likely suffer irreparable damage to his hea"
+      },
+      {
+        "idx": 67,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X-ray of the chest shows lytic lesions in 2 ribs. Blood smear shows aggregations"
+      },
+      {
+        "idx": 68,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', 'A']] X"
+      },
+      {
+        "idx": 69,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['C', '', '', 'A', '']] Option C is the correct course of action."
+      },
+      {
+        "idx": 70,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 71,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', 'A', '', '', '']] (1) Phlebotomy therapy is the recommended treatment for patients with Coats dise"
+      },
+      {
+        "idx": 72,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', 'A']] X"
+      },
+      {
+        "idx": 73,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', 'A', '']] X is not possible because the question does not provide any information about th"
+      },
+      {
+        "idx": 74,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', 'A', '', 'A', '']] X-rays of the eyes are normal, indicating no abnormalities in the eye structures"
+      },
+      {
+        "idx": 75,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X = Clinical diagnosis"
+      },
+      {
+        "idx": 76,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['A', '', '', 'D', 'D']] (1) Hyporeflexia: Hyporeflexia is a common finding in patients with type 1 diabe"
+      },
+      {
+        "idx": 77,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', 'A', '', '', 'A']] X-rays can be helpful in identifying the cause of the patient's symptoms."
+      },
+      {
+        "idx": 78,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 79,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', 'A', '', '', '']] X"
+      },
+      {
+        "idx": 80,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X. Decreased total body potassium"
+      },
+      {
+        "idx": 81,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 82,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 83,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 84,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['B', '', '', '', '']] The answer is B."
+      },
+      {
+        "idx": 85,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 86,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', 'A', '']] X"
+      },
+      {
+        "idx": 87,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 88,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 89,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 90,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', 'B', 'C', '', '']] X"
+      },
+      {
+        "idx": 91,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 92,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', 'A']] X"
+      },
+      {
+        "idx": 93,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', 'B', '']] X"
+      },
+      {
+        "idx": 94,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', 'A', '', '', '']] (X) Consider obtaining informed consent from the patient's parents or guardian b"
+      },
+      {
+        "idx": 95,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 96,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['A', '', '', 'A', '']] X is not a drug."
+      },
+      {
+        "idx": 97,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 98,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[votes: ['', '', '', '', '']] X"
+      },
+      {
+        "idx": 99,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "[votes: ['A', '', 'A', 'A', 'A']] The most common cause of sudden infant death syndrome (SIDS) is suffocation, fol"
+      }
+    ]
+  },
+  "tot_v2": {
+    "description": "ToT v2: Two-stage generation (analyze options -> select answer)",
+    "accuracy": 0.27,
+    "hallucination_rate": 0.0,
+    "num_samples": 100,
+    "correct": 27,
+    "sample_details": [
+      {
+        "idx": 0,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Patellar tendonitis\nCorrect: This is a common cause of knee pain during exercise. It can be caused by overuse, injury, o"
+      },
+      {
+        "idx": 1,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Rapid sequence intubation\nCorrect: This is the preferred method for managing severe airway obstruction. It involves plac"
+      },
+      {
+        "idx": 2,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Surgical debridement\nThe most common cause of left knee osteonecrosis is trauma. Intravenous antibiotics can be used to "
+      },
+      {
+        "idx": 3,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Decreased compliance of the left ventricle\nThis can be caused by various factors such as heart failure, myocardial infar"
+      },
+      {
+        "idx": 4,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Positive Babinski sign\nThe Babinski reflex is a positive response to stimulation of the lateral foot with the plantar fl"
+      },
+      {
+        "idx": 5,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Correct Answer: This error can occur during development when a normal duct develops into a nonfunctional one. It usually"
+      },
+      {
+        "idx": 6,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Correct Answer: This is a common finding in women during pregnancy. It may also occur after childbirth. Option B: Incorr"
+      },
+      {
+        "idx": 7,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Correct: This is a classic case of postpartum hemorrhage. The patient has been given a dose of sildenafil to treat his h"
+      },
+      {
+        "idx": 8,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Supportive therapy only\nResponse: This is not recommended for patients with severe influenza who require hospitalization"
+      },
+      {
+        "idx": 9,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "A\nCorrect: This is not a typical case of Alzheimer's disease. The cause of death was cardiac arrest due to myocardial in"
+      },
+      {
+        "idx": 10,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Suppression\nResponse: This is a common defense mechanism used when someone feels overwhelmed with emotions that they can"
+      },
+      {
+        "idx": 11,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Gluten-free diet\nThis is unlikely as gluten intolerance is often associated with celiac disease. The patient has no fami"
+      },
+      {
+        "idx": 12,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Deficiency of 17-hydroxylase, which is responsible for converting testosterone into its active form, estradiol. This can"
+      },
+      {
+        "idx": 13,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Aspirin\nCorrect: This is unlikely because there is no evidence of recent aspiration.\n\nFinal: A"
+      },
+      {
+        "idx": 14,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Sleep supine in a crib without bumpers, use a pacifier after 1 month of age, and avoidance smoking\nCorrect: Use a pacifi"
+      },
+      {
+        "idx": 15,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Persistent thyroid tissue at the tongue base\nThis is a rare condition where the thyroid gland remains attached to the to"
+      },
+      {
+        "idx": 16,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Metastatic breast cancer\nThis is a rare type of breast cancer that spreads to other organs such as bones, liver, and bra"
+      },
+      {
+        "idx": 17,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The probability of a phenotypically normal male and female having a child with red-green color blindness is 1/200. This "
+      },
+      {
+        "idx": 18,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Correct: This is the recommended treatment for dogs that have been bitten by humans. Option B: Incorrect: This is not th"
+      },
+      {
+        "idx": 19,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Herpesvirus\n\nFinal: A"
+      },
+      {
+        "idx": 20,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Syndrome of Inappropriate Antidiuretic Hormone Secretion (SIADH)\nThis is a rare disorder characterized by excessive prod"
+      },
+      {
+        "idx": 21,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Arteriography\nCorrect: This is not indicated because there is no evidence of a significant artery involved. Option B: CT"
+      },
+      {
+        "idx": 22,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Defects in the immune response\nResponse: This could be due to the presence of a defective immunoglobulin A (IgA) that do"
+      },
+      {
+        "idx": 23,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Correct Answer: This is a bacterial infection caused by Streptococcus pyogenes. It can cause a variety of symptoms such "
+      },
+      {
+        "idx": 24,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Boerhaave syndrome\nBoerhaave syndrome is a rare but serious condition characterized by severe abdominal pain, nausea, vo"
+      },
+      {
+        "idx": 25,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Continue calling the patient's parents and do not intubate until verbal consent is obtained over the phone. This approac"
+      },
+      {
+        "idx": 26,
+        "ref": "B",
+        "pred": "B",
+        "correct": true,
+        "response_excerpt": "Pseudostratified columnar epithelium in the bronchi\nCorrect: This type of pseudostratified columnar epithelium is found "
+      },
+      {
+        "idx": 27,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Retrospective cohort\nCorrect: This study used a retrospective approach to compare patient satisfaction levels before and"
+      },
+      {
+        "idx": 28,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Hemoptysis is a common symptom associated with acute respiratory distress syndrome (ARDS) and may be caused by various c"
+      },
+      {
+        "idx": 29,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Betamethasone and ampicillin can be used as a treatment for fetal lung maturity deficiency. This is because both drugs h"
+      },
+      {
+        "idx": 30,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "正确 病人感觉到自己的问题是由于他生活中出现了一些不良因素所导致，这种情况下，如果有人在适当的时候给予我们的病人提供了对应的治疗方法，那么就会使得我们的病情变得更加好。而如果没有人给我们的病人提供相关的治疗方法，那么就会造成我们的病情发展越"
+      },
+      {
+        "idx": 31,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Dantrolene\nCorrect: This agent can be used as a treatment for hyperkalemia associated with acute hypercalcemia. It shoul"
+      },
+      {
+        "idx": 32,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Tropheryma whipplei-specific RNA on PCR\nThis test can be used to confirm the diagnosis of tropheryma whipplei infection."
+      },
+      {
+        "idx": 33,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Cytarabine\nCorrect: This drug is used as part of a combination chemotherapy regimen for patients with non-Hodgkin's lymp"
+      },
+      {
+        "idx": 34,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Digoxin\nCorrect: This drug can cause hyperkalemia, especially in elderly patients. It should be used with caution in pat"
+      },
+      {
+        "idx": 35,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "CT angiogram\nCT angiography is the most commonly used imaging technique for evaluating patients with suspected deep vein"
+      },
+      {
+        "idx": 36,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "A toxoid vaccine within ten days of exposure\nCorrect: This is a recommended first line treatment for exposure to bat ven"
+      },
+      {
+        "idx": 37,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Granulomatous inflammation of the cavernous sinus\nThis is a rare but potentially serious complication of chronic intrave"
+      },
+      {
+        "idx": 38,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Intraoperative voice changes may be present in some patients. These can include hoarseness, difficulty in speaking clear"
+      },
+      {
+        "idx": 39,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The most common causes of chronic decrease in pulmonary compliance are congestive heart failure, interstitial pneumonia,"
+      },
+      {
+        "idx": 40,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Inhibition of nucleoside reverse transcriptase\nCorrect: This agent can be used as a first-line treatment for influenza v"
+      },
+      {
+        "idx": 41,
+        "ref": "D",
+        "pred": "B",
+        "correct": false,
+        "response_excerpt": "The correct answer is B.\n\nFinal: B."
+      },
+      {
+        "idx": 42,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Prostaglandin E1 infusion\nCorrect: This is the only treatment recommended by the American Academy of Pediatrics. It can "
+      },
+      {
+        "idx": 43,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "This mutation results in a shift of peptidyl-tRNA from A to P site, which can cause a misfolding of the protein and lead"
+      },
+      {
+        "idx": 44,
+        "ref": "D",
+        "pred": "D",
+        "correct": true,
+        "response_excerpt": "sporadic Creutzfeldt-Jakob disease (sCJD)\nCorrect: This is the most common form of CJD, accounting for approximately 90%"
+      },
+      {
+        "idx": 45,
+        "ref": "B",
+        "pred": "D",
+        "correct": false,
+        "response_excerpt": "Increased permeability of endothelium\nThis is not a valid answer because there is no evidence that the patient has decre"
+      },
+      {
+        "idx": 46,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "This is the wrong answer. The correct answer is B. Option B: This is the wrong answer. The correct answer is C. Option D"
+      },
+      {
+        "idx": 47,
+        "ref": "D",
+        "pred": "C",
+        "correct": false,
+        "response_excerpt": "Esophagogastroduodenoscopy\nCorrect: This is the most common method used to diagnose esophageal reflux. It involves placi"
+      },
+      {
+        "idx": 48,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "TGF-β is the most likely direct cause of this patient's examination findings. TGF-β is a cytokine that plays a critical "
+      },
+      {
+        "idx": 49,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "The patient has a primary respiratory alkalosis with a compensatory metabolic acidosis. This is because the patient's re"
+      },
+      {
+        "idx": 50,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Interstitial fibrosis and lymphocytic infiltrate\nThis finding indicates interstitial changes such as fibrosis, necrosis,"
+      },
+      {
+        "idx": 51,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Abdominal, back, or groin pain\nCorrect: This patient has a history of hypertension, hyperlipidemia, and a 30 pack/year s"
+      },
+      {
+        "idx": 52,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "A bacterium that induces partial lysis of red cells with hydrogen peroxide\nCorrect: This is a type of gram-positive baci"
+      },
+      {
+        "idx": 53,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Correct Answer: 1. A. Correct: This is the most common cause of hyperkalemia. It can occur when there is a sudden increa"
+      },
+      {
+        "idx": 54,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Return both the food and gift certificate because it is never acceptable to take gifts from patients. This would be an u"
+      },
+      {
+        "idx": 55,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Decreased α-ketoglutarate dehydrogenase activity in astrocytes\nThis is a common finding in patients with Alzheimer's dis"
+      },
+      {
+        "idx": 56,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "The tumor cells exhibit marked nuclear atypia. Option B: The tumor invades the pectoralis major. Option C: The tumor has"
+      },
+      {
+        "idx": 57,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Cauda Equina Syndrome\nCorrect: Steroids should be started after to MRI\nReason: This is the most common cause of back pai"
+      },
+      {
+        "idx": 58,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Contact dermatitis\nThis is a common cause of superficial cutaneous reactions in patients with type 2 diabetes mellitus. "
+      },
+      {
+        "idx": 59,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "This is correct. The NPV is calculated as the number of true positives divided by the total number of false negatives. I"
+      },
+      {
+        "idx": 60,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Correct. Option B: Incorrect. Option C: Correct. Option D: Incorrect\n\nFinal: A. Enalapril therapy"
+      },
+      {
+        "idx": 61,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Closed-loop communication\nCorrect: The order was correctly communicated from the ordering senior resident to the receivi"
+      },
+      {
+        "idx": 62,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Anticipation\nCorrect: This is a rare form of autism caused by a combination of multiple genes. It is usually diagnosed i"
+      },
+      {
+        "idx": 63,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Congenital adrenal hyperplasia\nThis is a rare genetic disorder characterized by increased production of cortisol in resp"
+      },
+      {
+        "idx": 64,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Neural tube\nCorrect: This is not a neural tube defect. It is a normal developmental process that occurs during fetal lif"
+      },
+      {
+        "idx": 65,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Yes, ginkgo is widely used for improving brain function and memory. It has been shown to have many benefits including re"
+      },
+      {
+        "idx": 66,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Consult with a psychiatrist to have Mr. P committed\nCorrect: This would be the best course of action. The risk of Mr. P "
+      },
+      {
+        "idx": 67,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Urinary tract infection\nThis is a common cause of acute lower back pain. It can be caused by urinary tract infections, s"
+      },
+      {
+        "idx": 68,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Production of IL-2 by Th1 cells\n\nFinal: A"
+      },
+      {
+        "idx": 69,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Correctly inform the patient about the mistake. Option B: Incorrectly inform the patient about the mistake. Option C: In"
+      },
+      {
+        "idx": 70,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "This finding is not present in normal pregnant women. Option B: The pancreas is usually small and does not have any cyst"
+      },
+      {
+        "idx": 71,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Pursue liver transplantation\nThis is the best treatment for Coats disease. It can be done through liver transplantation,"
+      },
+      {
+        "idx": 72,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Urinary pH: 7.3\nCorrect: This indicates that there is a high concentration of calcium oxide present in the urine. It can"
+      },
+      {
+        "idx": 73,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Factitious thyrotoxicosis\nFactitious thyrotoxicosis is a rare disorder characterized by hyperthyroidism that does not re"
+      },
+      {
+        "idx": 74,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "This is a normal finding in older adults with diabetes mellitus. It may be due to increased intraocular pressure from gl"
+      },
+      {
+        "idx": 75,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "This is a squamous cell carcinoma. It can be seen in any area of the body but is more common in the skin, mucosa, and ga"
+      },
+      {
+        "idx": 76,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Hyporeflexia is more common than hyperreflexia in patients with type 1 diabetes. This may be due to decreased activity o"
+      },
+      {
+        "idx": 77,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "X-rays show no signs of internal bleeding. Option B: Ultrasound shows no signs of internal bleeding. Option C: CT scan s"
+      },
+      {
+        "idx": 78,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Mesna is not recommended in patients receiving mesna due to its potential for causing severe hypersensitivity reactions."
+      },
+      {
+        "idx": 79,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "It concerns me that he would worry too much. Option B: It’s difficult to deal with couples who are aging. Option C: Sorr"
+      },
+      {
+        "idx": 80,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Decreased total body potassium\nCorrect: This can occur in patients who have decreased renal function, such as those rece"
+      },
+      {
+        "idx": 81,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Acute cholangitis\nCorrect: This is a common complication of cholecystectomy. It can occur within hours after surgery due"
+      },
+      {
+        "idx": 82,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Suppresses the neonatal immune system by reducing the number of antibodies produced by the mother's immune system. This "
+      },
+      {
+        "idx": 83,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Adenosine Deaminase Deficiency (ADA)\nCorrect: ADA deficiency is the most common autosomal recessive mutation in which of"
+      },
+      {
+        "idx": 84,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Increasing the heart rate increases the amount of time spent during each cardiac cycle. The increase in heart rate does "
+      },
+      {
+        "idx": 85,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Metastatic calcifications\nMetastatic calcifications are rare but can occur in any organ system. They may be seen in the "
+      },
+      {
+        "idx": 86,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "This is a 95% confidence interval that includes the null hypothesis. Option B: This is a 95% confidence interval that ex"
+      },
+      {
+        "idx": 87,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "A. Atrial septal defect\nCorrect: This is not a common finding in newborns. It is more commonly seen in older children an"
+      },
+      {
+        "idx": 88,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Primary hyperparathyroidism\nResponse: The pancreatic cells may be affected by primary hyperparathyroidism, leading to in"
+      },
+      {
+        "idx": 89,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Myasthenia gravis\nCorrect: This is a rare autoimmune disease characterized by muscle weakness, fatigue, and sensory neur"
+      },
+      {
+        "idx": 90,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Correct Answer: ❌ Incorrect Response: ❌\n\nFinal: A."
+      },
+      {
+        "idx": 91,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Aminolevulinic acid\nCorrect: The enzyme responsible for converting aminoquinolines into their corresponding porphyrins i"
+      },
+      {
+        "idx": 92,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Disruption of cadherin leads to the development of epidermal keratotic lesions. Option B: Disruption of collagen leads t"
+      },
+      {
+        "idx": 93,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Ribavirin and interferon\nThis combination is not recommended due to its high risk of serious adverse events such as hepa"
+      },
+      {
+        "idx": 94,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Attempt to contact the patient's parents for additional collateral information\nCorrect: This is not recommended as the p"
+      },
+      {
+        "idx": 95,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Correct Answer: This injury typically occurs at the point where the tibia and femur meet. It can occur from direct conta"
+      },
+      {
+        "idx": 96,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Pyrimethamine\nCorrect: This is the only medication that can be used in combination with primaquine. It is also known as "
+      },
+      {
+        "idx": 97,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "Acquired factor VIII deficiency\nThis is a rare but potentially life-threatening disorder that can occur as a result of v"
+      },
+      {
+        "idx": 98,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "STDs such as chlamydia, gonorrhea, syphilis, trichomoniasis, human papilloma virus (HPV), and hepatitis B and C can all "
+      },
+      {
+        "idx": 99,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "Preventing sudden infant death syndrome (SIDS) by placing the infant in a supine position on a firm mattress while sleep"
+      }
+    ]
+  },
+  "cot_verifier": {
+    "description": "CoT+Verifier: CoT reasoning followed by answer verification",
+    "accuracy": 0.04,
+    "hallucination_rate": 0.92,
+    "num_samples": 100,
+    "correct": 4,
+    "sample_details": [
+      {
+        "idx": 0,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 1,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 2,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 3,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 4,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 5,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 6,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 7,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 8,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 9,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 10,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 11,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 12,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 13,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 14,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 15,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X. Persistent thyroid tissue at the tongue base"
+      },
+      {
+        "idx": 16,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 17,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[init:A->ver:A] The probability of a phenotypically normal male and female having a child with r"
+      },
+      {
+        "idx": 18,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 19,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 20,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 21,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 22,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 23,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 24,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 25,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] The next best step in the management of this patient is to obtain written consen"
+      },
+      {
+        "idx": 26,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 27,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 28,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 29,
+        "ref": "D",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[init:A->ver:A] Betamethasone is indicated for use in conjunction with ampicillin to prevent pos"
+      },
+      {
+        "idx": 30,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] The patient may feel that the therapist's behavior is not appropriate or that th"
+      },
+      {
+        "idx": 31,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 32,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 33,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 34,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 35,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 36,
+        "ref": "B",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[init:A->ver:A] X. A toxoid vaccine within ten days of exposure"
+      },
+      {
+        "idx": 37,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 38,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "[init:A->ver:A] (1) Voice pitch limitation: The voice may be affected by the presence of a small"
+      },
+      {
+        "idx": 39,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 40,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 41,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 42,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 43,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "[init:A->ver:A] The point mutation in the gene causing the mRNA transcript to have a 'UUG' segme"
+      },
+      {
+        "idx": 44,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 45,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 46,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] The physician should proceed to surgery on the son without transfusion because t"
+      },
+      {
+        "idx": 47,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 48,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 49,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 50,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 51,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 52,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 53,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] "
+      },
+      {
+        "idx": 54,
+        "ref": "C",
+        "pred": "A",
+        "correct": false,
+        "response_excerpt": "[init:A->ver:A] The gift certificate should be returned to the hospital's gift shop or given to "
+      },
+      {
+        "idx": 55,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 56,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 57,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 58,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 59,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X = (245+10)/(245+5)"
+      },
+      {
+        "idx": 60,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 61,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] The root cause analysis should be conducted to identify the underlying causes of"
+      },
+      {
+        "idx": 62,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 63,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 64,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 65,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 66,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 67,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 68,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 69,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "[init:B->ver:A] The correct response is B."
+      },
+      {
+        "idx": 70,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 71,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 72,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 73,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 74,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 75,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 76,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 77,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X-rays are not indicated because there is no evidence of any abnormalities in th"
+      },
+      {
+        "idx": 78,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 79,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 80,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 81,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 82,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 83,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 84,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 85,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 86,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] The 95% confidence interval for the odds ratio of congenital malformations in ne"
+      },
+      {
+        "idx": 87,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 88,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 89,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 90,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X. Ganciclovir"
+      },
+      {
+        "idx": 91,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 92,
+        "ref": "A",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 93,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 94,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 95,
+        "ref": "C",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 96,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 97,
+        "ref": "B",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 98,
+        "ref": "D",
+        "pred": "",
+        "correct": false,
+        "response_excerpt": "[init:->ver:] X"
+      },
+      {
+        "idx": 99,
+        "ref": "A",
+        "pred": "A",
+        "correct": true,
+        "response_excerpt": "[init:A->ver:A] (1) A. Placing the infant in a supine position on a firm mattress while sleeping"
+      }
+    ]
+  }
+}

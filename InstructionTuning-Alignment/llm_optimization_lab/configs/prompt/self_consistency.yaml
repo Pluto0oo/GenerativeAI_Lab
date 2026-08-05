@@ -1,0 +1,40 @@
+experiment:
+  name: "prompt_self_consistency_medqa"
+  seed: 42
+  description: "Self-Consistency自洽性Prompt在MedQA上的效果"
+
+prompt:
+  strategy: "self_consistency"
+  template: |
+    你是一位专业的医疗助手。请按以下步骤思考：
+    1. 分析问题
+    2. 思考可能的诊断
+    3. 选择最可能的答案
+    
+    问题：{question}
+    选项：{options}
+    
+    让我们一步步思考...
+  num_samples: 5
+  temperature: 0.7
+
+model:
+  name: "TinyLlama-SFT-merged"
+  path: "c:/Users/17456/Documents/GitHub/Deep_learningPractice/Few-Shot  Meta-Learning/models/TinyLlama-SFT-merged"
+  torch_dtype: "bfloat16"
+  device: "cuda"
+  max_new_tokens: 512
+
+data:
+  name: "medqa"
+  path: "data/processed/medqa_processed.jsonl"
+  num_samples: 200
+  split: "test"
+
+evaluation:
+  metrics: ["accuracy", "hallucination_rate", "consistency_score"]
+  compare_with: ["zero_shot", "cot"]
+
+output:
+  save_dir: "results"
+  save_responses: true

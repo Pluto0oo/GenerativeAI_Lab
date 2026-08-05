@@ -1,0 +1,49 @@
+experiment:
+  name: "medical_assistant_full"
+  seed: 42
+  description: "轻量级医疗问答助手 - 全流程优化"
+
+# Prompt配置
+prompt:
+  strategy: "cot"
+  template: |
+    你是一位专业的医疗助手。请按以下步骤思考：
+    1. 分析问题
+    2. 检索相关医学知识
+    3. 结合参考资料给出答案
+    
+    参考资料：
+    {context}
+    
+    问题：{question}
+    
+    让我们一步步思考...
+
+# RAG配置  
+rag:
+  enabled: true
+  retrieval_type: "hybrid"
+  top_k: 5
+  embedding_model: "BAAI/bge-small-zh-v1.5"
+
+# 量化配置
+quantization:
+  enabled: true
+  bits: 8
+
+# 模型配置
+model:
+  name: "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+  merged_path: "models/TinyLlama-SFT-merged"
+  torch_dtype: "bfloat16"
+  device: "cuda"
+
+# 评估配置
+evaluation:
+  metrics: ["accuracy", "faithfulness", "hallucination_rate", "latency", "memory"]
+  comparison: true
+  
+# 输出配置
+output:
+  save_dir: "results"
+  save_comparison: true
